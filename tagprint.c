@@ -110,7 +110,6 @@ void help(void){
 
 int main(int argc, char* argv[]){
  if(argc < 2){ help(); }
- char buffer[MAX_SIZE];
  parser *p = malloc(sizeof(parser));
  p = parser_new(p, argv[1]); 
  p = parse(p);
