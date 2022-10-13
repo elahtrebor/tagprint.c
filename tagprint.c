@@ -32,7 +32,7 @@ char *colors[][2] = {
  {"reset",  "\e[0m"}
 };
 
- void *setColor(char *color){
+ void setColor(char *color){
              int i;
              for ( i =0; i<=8; i++){
               if(strcmp(colors[i][0], color) == 0){
