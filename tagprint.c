@@ -114,6 +114,7 @@ int main(int argc, char* argv[]){
  parser *p = malloc(sizeof(parser));
  p = parser_new(p, argv[1]); 
  p = parse(p);
+ free(p->string);
  free(p);
 return 0;
 
