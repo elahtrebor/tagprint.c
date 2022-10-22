@@ -1,4 +1,5 @@
 # tagprint.c
+<pre>
 Tag parser and printer. Takes HTML like TAGS and converts colors to ANSI color codes.
 Examples:
 
