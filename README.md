@@ -3,7 +3,7 @@
 Tag parser and printer. Takes HTML like TAGS and converts colors to ANSI color codes.
 Examples:
 
-"<green>this is a test</green><br>"
+tagprint '<green>this is a test</green><br>'
 
 will print the string "this is a test" in the color green and then print a line break.
 
